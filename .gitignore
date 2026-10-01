@@ -1,0 +1,134 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ==============================
+# Virtual Environments
+# ==============================
+.venv/
+
+# ==============================
+# Environment / Secrets
+# ==============================
+.env
+
+# ==============================
+# Testing / Coverage
+# ==============================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# IDE / Editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Data Science / ML
+# ==============================
+
+# Raw / processed datasets
+data/raw/
+data/processed/
+data/interim/
+
+# Large datasets
+*.csv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+
+# ==============================
+# ML Models / Artifacts
+# ==============================
+models/
+artifacts/
+checkpoints/
+
+*.pt
+*.pth
+*.h5
+*.keras
+*.onnx
+*.joblib
+*.safetensors
+
+# ==============================
+# ML Experiment Tracking
+# ==============================
+mlruns/
+wandb/
+.tensorboard/
+
+# ==============================
+# Data Engineering
+# ==============================
+
+# Local pipeline outputs
+output/
+outputs/
+tmp/
+temp/
+
+# Airflow
+airflow/logs/
+airflow/airflow.db
+airflow/.airflowignore
+
+# Spark
+.sparkStaging/
+
+# ==============================
+# Docker
+# ==============================
+*.dockerfile
+
+# ==============================
+# Database
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==============================
+# Secrets / Credentials
+# ==============================
+*.pem
+*.key
+*.crt
+credentials.json
+service-account.json
